@@ -1,0 +1,19 @@
+form {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+
+input {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    font-weight: 800;
+    font-size: 25px;
+}
+input:hover {
+    background-color: red;
+}
