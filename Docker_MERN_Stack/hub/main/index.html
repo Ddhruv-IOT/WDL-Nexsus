@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<title>Container Manager</title>
+	<link rel="stylesheet" type="text/css" href="hub/main/style.css">
+	<script src="hub/main/script.js"></script>
+</head>
+
+<body>
+	<div id="head">Manage Docker Hub</div>
+	<div id="leftPanel">
+		<button class="leftPanelItem" onclick="searchImage()">Search Image</button>
+		<button class="leftPanelItem" onclick="pushImage()">Docker Image Push</button>
+		<button class="leftPanelItem" onclick="dockerLogin()">Docker Hub Login</button>
+		<button class="leftPanelItem" onclick="dockerLogout()">Docker Hub Logout</button>
+	</div>
+	<div id="mainPanel">
+		<h1>Docker Hub</h1>
+		<br />
+		<h3>Choose from the left panel to start performing some operations on the Docker Hub.</h3>
+	</div>
+</body>
+
+</html>
