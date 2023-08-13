@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hub/search/style.css">
+    <link rel="stylesheet" href="hub/push/style.css">
+    <script src="hub/push/script.js"></script>
+</head>
+
+<body>
+    <div id="heading"> Push Docker Image to Docker Hub</div>
+    <div id="containerUserInput">
+        NOTE : Docker User Login is Mandatory for pushing images to Docker Hub. And, be sure to tag the image name in the format "docker_hub_ID/image-name:tag" first.
+    <br /><br />
+    <form action="/hub/push/status" method="post">
+        Docker Image Name : <input name="imageName" placeholder="docker_hub_ID/image-name:tag" style="width: 40%" /><br /><br />
+        <input id="submit" type="submit" value="Push Image" />
+    </form>
+    </div>
+</body>
+
+</html>
