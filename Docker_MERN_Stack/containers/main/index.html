@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<title>Container Manager</title>
+	<link rel="stylesheet" type="text/css" href="containers/main/style.css">
+	<script src="containers/main/script.js"></script>
+</head>
+
+<body>
+	<div id="head">Manage Containers</div>
+	<div id="leftPanel">
+		<button class="leftPanelItem" id="listAllCon" onclick="listContainers(this)">List All Containers</button>
+		<button class="leftPanelItem" id="listRunningCon" onclick="listContainers(this)">List Running
+			Containers</button>
+		<button class="leftPanelItem" onclick="createContainers()">Create Container</button>
+		<button class="leftPanelItem" onclick="startContainer()">Start Container</button>
+		<button class="leftPanelItem" onclick="inspectContainer()">Inspect Containers</button>
+		<button class="leftPanelItem" onclick="restartContainer()">Restart Container</button>
+		<button class="leftPanelItem" onclick="pauseContainer()">Pause Container</button>
+		<button class="leftPanelItem" onclick="unpauseContainer()">Unpause Container</button>
+		<button class="leftPanelItem" onclick="renameContainer()">Rename Container</button>
+		<button class="leftPanelItem" onclick="stopContainer()">Stop Container</button>
+		<button class="leftPanelItem" onclick="stopAllContainer()">Stop All Containers</button>
+		<button class="leftPanelItem" onclick="deleteContainer()">Delete Container</button>
+		<button class="leftPanelItem" onclick="deleteAllContainer()">Delete All Containers</button>
+		<button class="leftPanelItem" onclick="seeContainerLog()">See Container Logs</button>
+	</div>
+	<div id="mainPanel">
+		<h1>Containers</h1>
+		<br />
+		<h3>Choose from the left panel to start performing some operations on the containers.</h3>
+	</div>
+</body>
+
+</html>
