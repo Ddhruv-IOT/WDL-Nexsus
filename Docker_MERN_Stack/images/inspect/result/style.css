@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: darkgoldenrod;
+}
+
+#infoPanel {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    background-color: rgb(45, 43, 43);
+    border-radius: 10px;
+    width: 89%;
+    height: auto;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 50px;
+}
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+h2 {
+    margin: 0px;
+}
