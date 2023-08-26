@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<title>Container Manager</title>
+	<link rel="stylesheet" type="text/css" href="/images/main/style.css">
+	<script src="/images/main/script.js"></script>
+</head>
+
+<body>
+	<div id="head">Manage Images</div>
+	<div id="leftPanel">
+		<button class="leftPanelItem" onclick="listImages()">List All Images</button>
+		<button class="leftPanelItem" onclick="pullImage()">Pull Image</button>
+		<button class="leftPanelItem" onclick="deleteImage()">Delete Image</button>
+		<button class="leftPanelItem" onclick="imageHistory()">Check Image History </button>
+		<button class="leftPanelItem" onclick="inspectImage()">Inspect Image </button>
+		<button class="leftPanelItem" onclick="commitImage()">Build Image : Commit </button>
+	</div>
+	<div id="mainPanel">
+		<h1>Images</h1>
+		<br />
+		<h3>Choose from the left panel to start performing some operations on the Docker Images.</h3>
+	</div>
+</body>
+
+</html>
